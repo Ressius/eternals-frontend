@@ -1,0 +1,1 @@
+import{_ as o,o as s,c,p as _,b as a,d as t}from"./index-3f0dd637.js";const n={},d=e=>(_("data-v-2671c9fa"),e=e(),a(),e),p={class:"content"},i=d(()=>t("div",{class:"text"},[t("h1",null,"404"),t("h2",null,"Oops! Cette page est introuvable")],-1)),l=[i];function r(e,u){return s(),c("div",p,l)}const h=o(n,[["render",r],["__scopeId","data-v-2671c9fa"]]);export{h as default};
