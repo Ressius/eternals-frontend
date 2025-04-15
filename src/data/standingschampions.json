@@ -1,0 +1,90 @@
+[
+    {
+        "id": 4,
+        "position": 1,
+        "teamName": "Virtual STC de Saint-Jean-Sur-Richelieu",
+        "teamLogo": "https://i.postimg.cc/L8ThJQXL/vtl.png",
+        "points": 16,
+        "victories": 13,
+        "defeats": 5,
+        "resultsWins": 6,
+        "resultsLoses": 1
+    },
+    {
+        "id": 5,
+        "position": 2,
+        "teamName": "Apex de Chambly",
+        "teamLogo": "https://i.postimg.cc/5tbN1BSy/apex.png",
+        "points": 13,
+        "victories": 10,
+        "defeats": 7,
+        "resultsWins": 4,
+        "resultsLoses": 3
+    },
+    {
+        "id": 9,
+        "position": 3,
+        "teamName": "Draveurs de Gatineau",
+        "teamLogo": "https://i.postimg.cc/d1DFt4ks/draveurs.png",
+        "points": 11,
+        "victories": 9,
+        "defeats": 8,
+        "resultsWins": 4,
+        "resultsLoses": 3
+    },
+    {
+        "id": 10,
+        "position": 4,
+        "teamName": "Les Anges du Saguenay",
+        "teamLogo": "https://i.postimg.cc/1Xt8SGPw/aot.png",
+        "points": 10,
+        "victories": 9,
+        "defeats": 9,
+        "resultsWins": 4,
+        "resultsLoses": 3
+    },
+    {
+        "id": 11,
+        "position": 5,
+        "teamName": "Yummy Sports de Trois-Rivières",
+        "teamLogo": "https://i.postimg.cc/7ZmYHCsN/yummy.png",
+        "points": 9,
+        "victories": 7,
+        "defeats": 9,
+        "resultsWins": 3,
+        "resultsLoses": 4
+    },
+    {
+        "id": 8,
+        "position": 6,
+        "teamName": "Miracle de Montréal",
+        "teamLogo": "https://i.postimg.cc/8sGP5LgZ/miracle.png",
+        "points": 9,
+        "victories": 8,
+        "defeats": 11,
+        "resultsWins": 2,
+        "resultsLoses": 5
+    },
+    {
+        "id": 6,
+        "position": 7,
+        "teamName": "Yuzu Sushi de St-Nicolas",
+        "teamLogo": "https://i.postimg.cc/J0NM9tHZ/yuzu.png",
+        "points": 8,
+        "victories": 7,
+        "defeats": 10,
+        "resultsWins": 3,
+        "resultsLoses": 4
+    },
+    {
+        "id": 7,
+        "position": 8,
+        "teamName": "Académie Esports de Québec",
+        "teamLogo": "https://i.postimg.cc/LsKgPgBF/aeq.png",
+        "points": 8,
+        "victories": 6,
+        "defeats": 10,
+        "resultsWins": 2,
+        "resultsLoses": 5
+    }
+]

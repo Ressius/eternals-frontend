@@ -1,0 +1,90 @@
+[
+    {
+        "id": 15,
+        "position": 1,
+        "teamName": "Académie Esports de Québec",
+        "teamLogo": "https://i.postimg.cc/LsKgPgBF/aeq.png",
+        "points": 16,
+        "victories": 11,
+        "defeats": 4,
+        "resultsWins": 5,
+        "resultsLoses": 2
+    },
+    {
+        "id": 12,
+        "position": 2,
+        "teamName": "Virtual STC de Saint-Jean-Sur-Richelieu",
+        "teamLogo": "https://i.postimg.cc/L8ThJQXL/vtl.png",
+        "points": 14,
+        "victories": 11,
+        "defeats": 6,
+        "resultsWins": 5,
+        "resultsLoses": 2
+    },
+    {
+        "id": 19,
+        "position": 3,
+        "teamName": "Yummy Sports de Trois-Rivières",
+        "teamLogo": "https://i.postimg.cc/7ZmYHCsN/yummy.png",
+        "points": 12,
+        "victories": 10,
+        "defeats": 7,
+        "resultsWins": 5,
+        "resultsLoses": 2
+    },
+    {
+        "id": 13,
+        "position": 4,
+        "teamName": "Apex de Chambly",
+        "teamLogo": "https://i.postimg.cc/5tbN1BSy/apex.png",
+        "points": 10,
+        "victories": 8,
+        "defeats": 8,
+        "resultsWins": 4,
+        "resultsLoses": 3
+    },
+    {
+        "id": 16,
+        "position": 5,
+        "teamName": "Miracle de Montréal",
+        "teamLogo": "https://i.postimg.cc/8sGP5LgZ/miracle.png",
+        "points": 10,
+        "victories": 8,
+        "defeats": 9,
+        "resultsWins": 3,
+        "resultsLoses": 4
+    },
+    {
+        "id": 17,
+        "position": 6,
+        "teamName": "Draveurs de Gatineau",
+        "teamLogo": "https://i.postimg.cc/d1DFt4ks/draveurs.png",
+        "points": 9,
+        "victories": 7,
+        "defeats": 9,
+        "resultsWins": 3,
+        "resultsLoses": 4
+    },
+    {
+        "id": 14,
+        "position": 7,
+        "teamName": "Yuzu Sushi de St-Nicolas",
+        "teamLogo": "https://i.postimg.cc/J0NM9tHZ/yuzu.png",
+        "points": 8,
+        "victories": 8,
+        "defeats": 12,
+        "resultsWins": 2,
+        "resultsLoses": 5
+    },
+    {
+        "id": 18,
+        "position": 8,
+        "teamName": "Les Anges du Saguenay",
+        "teamLogo": "https://i.postimg.cc/1Xt8SGPw/aot.png",
+        "points": 5,
+        "victories": 4,
+        "defeats": 12,
+        "resultsWins": 1,
+        "resultsLoses": 6
+    }
+]

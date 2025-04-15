@@ -1,0 +1,714 @@
+{
+    "id": 7205065,
+    "name": "QCl Saison 1 Académie",
+    "providerId": 13602,
+    "creationDate": "2024-03-03T15:57:02.22",
+    "franchises": [
+        {
+            "id": 13,
+            "name": "Virtual STC de Saint-Jean-Sur-Richelieu",
+            "logo": "https://i.postimg.cc/L8ThJQXL/vtl.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 12,
+                    "franchiseId": 13,
+                    "name": "VTL Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 44,
+                            "summonerId": "wE8024C-e5cgCRZSN8NJKk5y-pJPz1VNDwqrEpCBXiZiwZTxWBnRYQYxwyQLhVYjGnn9MKOstwUdUA",
+                            "ign": "MTC Lolo",
+                            "teamId": 12,
+                            "opgg": "MTC LoLo,LoLo#MIM,laulan007#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 45,
+                            "summonerId": "kxKiVLuIOR2uM0E1tD5a9F1cdxnwyJaYfeSFdnrvB9ZXLeY7VVJEEvhqNlhHjFPEXYnL8F07ki_4wA",
+                            "ign": "Tisane",
+                            "teamId": 12,
+                            "opgg": "ImVeryBArD#jgdif,Tisane#SUCE,Tisane#NA2,lIlIlIIIIlIlIl#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 46,
+                            "summonerId": "E2QH9zL_6jALimgUPZ6nJ13j82myslcGoJ9JQBr3Tfs2SAZe7Y53uemzzIbj4bYlR17J_Dtn203HKg",
+                            "ign": "Wcat",
+                            "teamId": 12,
+                            "opgg": "wcat#wcat, iamwcat#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 47,
+                            "summonerId": "J--ltA0fcilwSmR-AqoVa5LHLBHdGptfio1AbsZ10ottcSfXafhm09eKZE03C-WjMR4L6x1QvwUj4g",
+                            "ign": "Metaphore",
+                            "teamId": 12,
+                            "opgg": "Métaphores#na1,Métaphor#0002",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 48,
+                            "summonerId": "wrbnkcn52KoESQxHqE9C-jRy4WKvlAC5mwloMEOn7OII_CHK4svrM6-Vk0y6Jv6c2-QyFWBhUs74TA",
+                            "ign": "Heatcliff",
+                            "teamId": 12,
+                            "opgg": "heatcliff#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 14,
+            "name": "Apex de Chambly",
+            "logo": "https://i.postimg.cc/5tbN1BSy/apex.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 13,
+                    "franchiseId": 14,
+                    "name": "APX Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 49,
+                            "summonerId": "H0MzIEIpHKnxvm5-RP86dawVdPa4FpgslHqeKqQYv0idaufzQQY3cCV1fyaUhUoTjRjwLxq2W1BMjw",
+                            "ign": "Hépaté",
+                            "teamId": 13,
+                            "opgg": "Excessif #na1 , LaPétoune",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 50,
+                            "summonerId": "HD_pC1cNNGqC6vgSPZpvwPcd43PNFOii9fN92wy6brCaylo2mF2CgoFQ3cYDVRxvQRC1DBAG9x7AVA",
+                            "ign": "Akela",
+                            "teamId": 13,
+                            "opgg": "akela#001",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 51,
+                            "summonerId": "JIec4hYTqsGG0hl-CbvE_p_0a7u7VjG3x1LBcbGKr5zdV9WJ0X56Cz4VSyifvSmu0TGea845yqY8WA",
+                            "ign": "Avadin",
+                            "teamId": 13,
+                            "opgg": "Avadin#TOP,Jason Archenemy#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 52,
+                            "summonerId": "DB3xHI_1MYQtTe-0lPK2mdDmIc17DDGrDAOxdZpK2g2qIBCSo6XxgAJEl0TVaYuAf7hSHkKyKXDC4g",
+                            "ign": "SW4P",
+                            "teamId": 13,
+                            "opgg": "Worst in me#NA2",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 53,
+                            "summonerId": "Wymfs_49JBLkYCtFWlQGPA_Qz1Tx4jUrrbqkprar_kw1Nu5eV_JOhwYRkfv8Nj8V7N1wBWzWrfAWzQ",
+                            "ign": "Axel White",
+                            "teamId": 13,
+                            "opgg": "OF Axel White#UwU",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 15,
+            "name": "Yuzu Sushi de St-Nicolas",
+            "logo": "https://i.postimg.cc/J0NM9tHZ/yuzu.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 14,
+                    "franchiseId": 15,
+                    "name": "YUZU Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 54,
+                            "summonerId": "1KCLzgzXnDG4Y5jBzGkG-yUU4d_Ioc_T2XDxpPXx-Jzld6dzy1sdcdV0gH1LQVRIuxe7N-bxveWXNQ",
+                            "ign": "Jack Barrel",
+                            "teamId": 14,
+                            "opgg": "Jack Barrel#NA1,Volibiere#NA1,ReverseMonti#NA1,WuSinge#NA1,RavenousRiven#NA1,DocDonut#NA1,DemacianCroco#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 55,
+                            "summonerId": "SC_964ncwpNoxRsjVKUW8LbQz9J8hzEbOCjiQbnFT1oANFeAEN4shH1LAfP7OcnZ-w42FxsQvuYXsg",
+                            "ign": "Deffendor",
+                            "teamId": 14,
+                            "opgg": "Deffendor#Na1,Imoldight#NA1,Onjuskis#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 56,
+                            "summonerId": "vnNix-G5fbbOVMO9maCGqMQQw3eRL1n3TFc22Er_EJAkwzwfvwf0y_nTCkNx6u-E_d4gUp7bg0piDw",
+                            "ign": "Najim",
+                            "teamId": 14,
+                            "opgg": "Najim#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 57,
+                            "summonerId": "RvJIxaHV3ioGFdbyE6jsWkzYhX300ii0eEqnQ_1cv6C2k0Gvw05PyqAyqxzgHhjDGzHu_8eVAust_A",
+                            "ign": "Kita shinsuke",
+                            "teamId": 14,
+                            "opgg": "Kita Shinsuke#Kita",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 58,
+                            "summonerId": "JbboY9zreyuk1PYqJ1SqrDHBjNVX2uTaN6RSy1tSTbs7oF7aPbUEZuoNW_x2hY6SU04FLEcjv-Cs7A",
+                            "ign": "Le Iench",
+                            "teamId": 14,
+                            "opgg": "iench#na1,le gros chien#na1,reformed iench#na2",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 16,
+            "name": "Académie Esports de Québec",
+            "logo": "https://i.postimg.cc/LsKgPgBF/aeq.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 15,
+                    "franchiseId": 16,
+                    "name": "AEQ Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 59,
+                            "summonerId": "6uy7xSr0ksK9707jNuYX4GspDU3y63F63j3fwSdwsQGCvG7HJLxdSQDDiPhuNnU50v0qC5bsYd75Aw",
+                            "ign": "Walmart",
+                            "teamId": 15,
+                            "opgg": "Bill the Drill#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 60,
+                            "summonerId": "msefuFENqXgDqSh352Z_Y5oj1eCokwH6wQg5BztjTdX0ClSbpnOlLG-q0X8SuxAtN7MrsP9Q0CN_NQ",
+                            "ign": "Dreydan",
+                            "teamId": 15,
+                            "opgg": "Dreydan08#NA1,Dreydan000#NA1,Dreydan00#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 61,
+                            "summonerId": "j54WVNsw6OvPkQJ-wUW28jfqfCvPPSguFPldu75I8jBx2SOOtLlSZB_uPfnmYzPRdSAuSxNo8t11VA",
+                            "ign": "Paradox",
+                            "teamId": 15,
+                            "opgg": "MTC paradox#NA1,diamondsblades#NA1,Shadowsblood55#NA1,rena furtive#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 62,
+                            "summonerId": "ncB9A_h87ciY9qSWKjozAm-nuzJ48MRggR-sySotbDoPqGvK5XKqj2jZqBRrADwAypzboLeRfiHMoA",
+                            "ign": "DarkApex",
+                            "teamId": 15,
+                            "opgg": "Apex#Pro1,Hi Im The Jake#NA1,ÐancerÕfBlades#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 63,
+                            "summonerId": "Z-DT4ZEexVwstATznKIRl0GczEuWLhdNnosSpunRvEdLMU5Cpouqu3hS7pAL91cSf6tZ4293p5r62Q",
+                            "ign": "Pulpetier",
+                            "teamId": 15,
+                            "opgg": "Le Pulpetier#8207",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 17,
+            "name": "Miracle de Montréal",
+            "logo": "https://i.postimg.cc/8sGP5LgZ/miracle.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 16,
+                    "franchiseId": 17,
+                    "name": "MRC Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 64,
+                            "summonerId": "NOt6n4Io-KD_buai6JRg4Rfe9wQjUOgaegGlI6b69g1aC2erAr6yd224RkcQ5HZ9Bq03lZvBR6265g",
+                            "ign": "Nicopayy",
+                            "teamId": 16,
+                            "opgg": "nicopayy#le p,nicop#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 65,
+                            "summonerId": "46VHO-IMPHbIRYlu4-W41-weIJe08NwyzfZ3nhsOm3aJ_s8lBj4IUmv7fujgPLS6ZperFfZeAfgbGA",
+                            "ign": "MrJC",
+                            "teamId": 16,
+                            "opgg": "MrJC#ZAC",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 66,
+                            "summonerId": "PUXkA8v7rIaMHrvAdU7GHvVzJz7mA-U9D3hi4_WeXFfkV5t59a9Q-dPtnrjX6MlTSOv7Nvi-VYtB-w",
+                            "ign": "Mick",
+                            "teamId": 16,
+                            "opgg": "Roi\r\n#cass",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 67,
+                            "summonerId": "mGb5AwAZIPOArRsb_VleSWuSPbbZqHglnsJUctjGeaCsxDAUluaLQlSvh6D9VNHbPSa_B3tr5fLuGg",
+                            "ign": "Docdeauna",
+                            "teamId": 16,
+                            "opgg": "Docdeauna#na1,deauna#na1,smurfdocdeauna#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 68,
+                            "summonerId": "-yHLXfbeeJ3S8MMz4CtyXOlqEhc-8rTWmyXX-hpZjox5jS1wP4w37lFPYmbmMa2OyGHXBgkyy6UGMw",
+                            "ign": "Kaj",
+                            "teamId": 16,
+                            "opgg": "Kaj#6996",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 18,
+            "name": "Draveurs de Gatineau",
+            "logo": "https://i.postimg.cc/d1DFt4ks/draveurs.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 17,
+                    "franchiseId": 18,
+                    "name": "DRV Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 69,
+                            "summonerId": "omPkODyInVDZkI3-Kxze_C3xz-Z-qe-yU1vbgaBRErxyReUNSnuUWjJXyVqdBzRo7v6loNbTvMyo1w",
+                            "ign": "Woven",
+                            "teamId": 17,
+                            "opgg": "I Woven#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 70,
+                            "summonerId": "hyTs1uW-lMPvAh6KrFbdxZReznA8s-v37lXw75ThMxJOA20OQ6Nif6afWVAcU6v1Vd-2NO7n6DUtBQ",
+                            "ign": "Carrymyadc",
+                            "teamId": 17,
+                            "opgg": "carrymyadc#1337,lineriahusti#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 71,
+                            "summonerId": "iu7nC37DG4GyR1wVaIazJ3ZRAwHJJJhXil4bpUXIRCMA1Ye0V8uxG08hSx8xQrjS2R-pzIMbm6GJdQ",
+                            "ign": "Mar5",
+                            "teamId": 17,
+                            "opgg": "maR5#Dani,Elicullus#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 73,
+                            "summonerId": "uFlhrfBesDDs312pA_5sJ11dw6KIDp9PVspDpM8QYoyX-9WQs_3tLIQR9ecIve5Tm8DPehfojmDVeg",
+                            "ign": "TheSpagman",
+                            "teamId": 17,
+                            "opgg": "WWC TheSpagMan#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 88,
+                            "summonerId": "EPVECpqZHWkwsP_RpOnVUnpap0PJ8S5O3GN3Ir3rSIXqTHw-xCOkgAblrI-mnBJn6G_NtYa9k-Jt5g",
+                            "ign": "Frozen",
+                            "teamId": 17,
+                            "opgg": "MTC Frozen#NA1",
+                            "creationDate": "2024-04-06T00:00:00",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 19,
+            "name": "Les Anges du Saguenay",
+            "logo": "https://i.postimg.cc/1Xt8SGPw/aot.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 18,
+                    "franchiseId": 19,
+                    "name": "AOT Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 74,
+                            "summonerId": "XoGkT-WFf60vDyi70dMykISAEuV6FgqDmCt2hLHUSiSOyzZVcGZBzVTOGwEHcthoYPv0dLYMsDv2TA",
+                            "ign": "Dars23",
+                            "teamId": 18,
+                            "opgg": "DarS23#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 75,
+                            "summonerId": "J-cc40uYrBYm9dilHdAEWHHxeJzkPvLgSGSKoAFs1sVfeOTZ2_6srXRKXMOrv4YmwdSGQsR63anOUQ",
+                            "ign": "Nath819",
+                            "teamId": 18,
+                            "opgg": "nath819#Anges,???#???#na1,Qalestanth#na1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 76,
+                            "summonerId": "XjCFrR61ODkXhHGElauh2HAf-bjm0qXcdZ4DlmhxgDuVAX7_NqAnAchrdcQQu7QTeHFNryg7xfaoEQ",
+                            "ign": "Williboi",
+                            "teamId": 18,
+                            "opgg": "missing father#na1,williboi#na1,wertyg#na1,dopamingo#na1,cex king#na1, adison bière#123",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 77,
+                            "summonerId": "KgLIEDjC8FbV18yEM1CrfT95HdW-t_hHxWYbLxAYx3r1eBTStZY69W7CQ7sX3aAWqeOusXrEUdhyAQ",
+                            "ign": "Polvo",
+                            "teamId": 18,
+                            "opgg": "Polvo#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 78,
+                            "summonerId": "n8NxTVJ8IqaCIRPLS_mJMpvwkf4kFj7zclmWetCTJS-vJ1Cz00hnUha0UEq5wkA5Bt6piAGqsHvmgA",
+                            "ign": "Gabgau",
+                            "teamId": 18,
+                            "opgg": "gabgaut434#NA1",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        },
+        {
+            "id": 20,
+            "name": "Yummy Sports de Trois-Rivières",
+            "logo": "https://i.postimg.cc/7ZmYHCsN/yummy.png",
+            "tournamentId": 7205065,
+            "creationDate": "2024-03-03T15:57:02.22",
+            "staff": [],
+            "teams": [
+                {
+                    "id": 19,
+                    "franchiseId": 20,
+                    "name": "YUM Académie",
+                    "creationDate": "2024-03-03T15:57:02.22",
+                    "franchise": null,
+                    "matchTeam1s": [],
+                    "matchTeam2s": [],
+                    "matchWinnerTeams": [],
+                    "players": [
+                        {
+                            "id": 79,
+                            "summonerId": "0jivvcXTs4s6vXVj8psgDbd4cLoTBQj2Vf2946HbWZx0ctDuePmfhYdEO4nzoDJT3zUg2mFBu-uF0Q",
+                            "ign": "MTC Qclcity",
+                            "teamId": 19,
+                            "opgg": "MTC Qclcity#TRASH",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "top",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 80,
+                            "summonerId": "gQVvhWurXPqV1y0ReNkI9wqXNftvg_i37R94ptuRxIUGPLxzgswQp49WE1C7AzmtDKq09hyUvLwjeQ",
+                            "ign": "Simply BD",
+                            "teamId": 19,
+                            "opgg": "Simply BD#5555",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "jg",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 81,
+                            "summonerId": "fCRJ8pFas9bER6UQ4gG6QlQrqzfFtTPFc0PZI9fWFK9zdcPZ8uP-qJnjsHohGmisFh25KvQsNSiG3Q",
+                            "ign": "Tecto",
+                            "teamId": 19,
+                            "opgg": "Tecto#1215",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "mid",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 82,
+                            "summonerId": "foxJK6w3zn2V35YyLh6zZNQBcn9QLPRcCKPIXzfo8YwsIrW3xs6EGIPePK6L5bdnvp2gyRTFauCu9g",
+                            "ign": "Perry",
+                            "teamId": 19,
+                            "opgg": "perrylefeeder#na2",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "adc",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        },
+                        {
+                            "id": 83,
+                            "summonerId": "jUcDO66E-WMWfzU9N35jLeh0fY8LH54WM5R_kRZcRNy9l1IxPcSnHPO3A2fnkL51XTLRTcY2GWlPMw",
+                            "ign": "Jeff",
+                            "teamId": 19,
+                            "opgg": "jeff#enfer,gregoric2015#cool,Shaula#2925",
+                            "creationDate": "2024-03-03T15:57:02.22",
+                            "role": "sup",
+                            "active": true,
+                            "playerCompiledStats": [],
+                            "playerGameStats": [],
+                            "team": null
+                        }
+                    ]
+                }
+            ],
+            "tournament": null
+        }
+    ],
+    "phases": [],
+    "provider": null
+}
