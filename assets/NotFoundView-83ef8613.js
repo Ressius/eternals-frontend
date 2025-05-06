@@ -1,0 +1,1 @@
+import{_ as o,o as s,c,p as _,b as a,d as t}from"./index-4194f67a.js";const n={},d=e=>(_("data-v-f1a05ff5"),e=e(),a(),e),p={class:"content"},f=d(()=>t("div",{class:"text"},[t("h1",null,"404"),t("h2",null,"Oops! Cette page est introuvable")],-1)),i=[f];function l(e,r){return s(),c("div",p,i)}const h=o(n,[["render",l],["__scopeId","data-v-f1a05ff5"]]);export{h as default};
