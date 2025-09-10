@@ -1,7 +1,10 @@
 <script setup>
 import Blocks from '../components/Blocks.vue';
+import Orgs from '../components/Orgs.vue';
+import Youtube from '../components/Youtube.vue';
 import HeroHeader from '../components/HeroHeader.vue'
 import OurPartners from '../components/OurPartners.vue';
+import config from '@/config.json'
 
 </script>
 
@@ -12,8 +15,10 @@ import OurPartners from '../components/OurPartners.vue';
       <OurPartners />
     </div>
     <div class="content" style="background-color: #111;">
-      <h2>Saison Été 2025</h2>
+      <h2>Saison {{ config.seasonName }}</h2>
       <Blocks />
+      <Orgs />
+      <Youtube />
     </div>
   </main>
 </template>
@@ -21,8 +26,8 @@ import OurPartners from '../components/OurPartners.vue';
 <style scoped>  
 .fade{
   background: linear-gradient(to bottom, rgba(56, 56, 56, 0), #6A6D7A);
-  height: 20vh;
-  margin-top: -20vh;
+  height: 300px;
+  margin-top: -300px;
   width: 100%;
 }
 
@@ -31,13 +36,20 @@ body {
   overflow-x:hidden;
 }
 
-
 h2{
+  font-family: "NewOrderBold";
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 5em;
   margin-bottom: 30px;
   color: white;
   text-align: center;
   padding-top: 40px;
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 3em;
+    padding-top: 20px;
+  }
 }
 </style>

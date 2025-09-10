@@ -16,8 +16,20 @@ const router = createRouter({
     {
       path: '/equipe',
       name: 'equipe',
-      meta: { title: 'QCL - Équipe' },
+      meta: { title: 'Eternal - Équipe' },
       component: () => import('../views/TeamView.vue')
+    },
+    {
+      path: '/halloffame',
+      name: 'HallOfFame',
+      meta: { title: 'Eternal - Hall of Fame' },
+      component: () => import('../views/HoFView.vue')
+    },
+    {
+      path: '/mission',
+      name: 'Mission',
+      meta: { title: 'Eternal - Mission' },
+      component: () => import('../views/MissionView.vue')
     },
     { 
       path: '/classement', 

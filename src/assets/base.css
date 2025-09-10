@@ -88,6 +88,11 @@
   src: url('fonts/new-order-regular-wisabo/NewOrderRegular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: "NewOrderBold";
+  src: url('fonts/new-order-bold-wisabo/NewOrderBold.otf') format('opentype');
+}
+
 
 .content{
   background: #6A6D7A;

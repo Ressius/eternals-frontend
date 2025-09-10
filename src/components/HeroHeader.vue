@@ -33,11 +33,11 @@ h1 {
   width:100%;
   padding-top: 250px;
   background-image: url('./../assets/img/wallpaper.jpg');
-  padding-bottom: 35vh;
+  padding-bottom: 400px;
   background-size: cover;
   background-attachment: fixed;
   background-position:center;
-  box-shadow: inset 0 0 0 1000px rgba(56, 56, 56, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
 .title {
@@ -47,7 +47,7 @@ h1 {
   position: relative;
   top: 0;
   width: 95vw;
-  max-width: 50vh;
+  max-width: 30vw;
 }
 
 h3{
@@ -65,5 +65,25 @@ a {
   text-decoration: none; 
 }
 
-
+/* Make everything smaller when width is under 1200px */
+@media (max-width: 1200px) {
+  .greetings {
+    padding-top: 120px;
+    padding-bottom: 200px;
+    background-position-y: -100px;
+    background-size: 1500px;
+  }
+  .title {
+    max-width: 30vw;
+    width: 70vw;
+  }
+  h1 {
+    font-size: 7vw;
+    top: 5px;
+    padding: 0 4px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
 </style>

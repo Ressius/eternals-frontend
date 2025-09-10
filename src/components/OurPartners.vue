@@ -34,7 +34,18 @@ export default {
 
 <template>
   <div class="partners">
-    <div ref="slider" class="keen-slider logos-container">
+    <div class="temp">
+      <a href="https://www.facebook.com/claudineportelancecourtier/?locale=fr_FR" target="_blank">
+        <img src="../assets/orgs/view-illuminated-neon-gaming-keyboard-setup-controller_copie.png" alt="Partner Logo" />
+      </a>
+      <a href="https://cjela.qc.ca/" target="_blank">
+        <img src="../assets/orgs/cje-logo-web.png" alt="Partner Logo" />
+      </a>
+      <a href="https://manumedia.ca/" target="_blank">
+        <img src="../assets/orgs/image.png" alt="Partner Logo" />
+      </a>
+      </div>
+<!-- <div ref="slider" class="keen-slider logos-container">
         <div class="keen-slider__slide number-slide1">
           <img src="../assets/img/pr.png" alt="Partner Logo" />
         </div>
@@ -59,11 +70,56 @@ export default {
         <div class="keen-slider__slide number-slide5">
           <img src="../assets/img/votrepoutine.png" alt="Partner Logo" />
         </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <style scoped>
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 100%;
+  flex-wrap: nowrap; /* NE PAS wrap, reste en ligne même sur mobile */
+  overflow-x: auto; /* Permet le scroll horizontal si ça déborde */
+}
+
+.temp a {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.temp img {
+  transition: transform 0.3s ease;
+  height: 95%;
+  max-width: 180px;
+  width: auto;
+}
+
+.temp img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1300px) {
+  .temp {
+    margin-top: 150px;
+    gap: 40px;
+  }
+  .temp a {
+    max-height: 120px;
+  }
+  .temp img {
+    max-width: 100px;
+    height: 90%;
+  }
+}
+
 h2 {
   color: white;
   font-size: 2.5rem;
@@ -85,13 +141,6 @@ h2 {
 .logos-container {
   position: relative;
   overflow: visible;
-}
-
-img {
-  height: 200px;
-  margin-top:5%;
-  transition: transform 0.3s ease; /* Smooth scaling on hover */
-  cursor: pointer;
 }
 
 img:hover {

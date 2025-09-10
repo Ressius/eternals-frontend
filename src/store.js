@@ -1,6 +1,6 @@
 import { reactive } from 'vue'
 
-export const store = reactive({
+/*export const store = reactive({
   franchises: [],
   standingsChampions: [],
   standingsAcademy: [],
@@ -10,4 +10,8 @@ export const store = reactive({
   stats: [],
   token: "",
   user: {}
+})*/
+
+export const store = reactive({
+  videos: []
 })

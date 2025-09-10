@@ -6,8 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "cname": "cd dist && echo eternalsesport.ca > CNAME",
-    "deploy": "vite build && copy dist\\index.html dist\\404.html"
+    "predeploy": "vite build && copy dist\\index.html dist\\404.html && cd dist && echo eternalesport.com > CNAME",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -25,10 +25,12 @@
     "vue-router": "^4.2.4",
     "vue-scrollto": "^2.20.0",
     "vue3-marquee": "^4.2.2",
-    "vuejs-smart-table": "^0.0.8"
+    "vuejs-smart-table": "^0.0.8",
+    "youtube-search-api": "^2.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "vite": "^4.4.9"
   }
 }

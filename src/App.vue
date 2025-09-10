@@ -5,10 +5,10 @@ import axios from 'axios'
 import { RouterLink, RouterView } from 'vue-router'
 import { store } from './store.js'
 
-import standingsacad from '../src/data/standingsacad.json'
-import standingschampions from '../src/data/standingschampions.json'
-import tournamentchampions from '../src/data/tournamentchampions.json'
-import tournamentacad from '../src/data/tournamentacad.json'
+//import standingsacad from '../src/data/standingsacad.json'
+//import standingschampions from '../src/data/standingschampions.json'
+//import tournamentchampions from '../src/data/tournamentchampions.json'
+//import tournamentacad from '../src/data/tournamentacad.json'
 
 export default {
   name: 'App',
@@ -20,7 +20,7 @@ export default {
   }
 };
 
-var tournamentChampions = tournamentchampions
+/*var tournamentChampions = tournamentchampions
 var tournamentAcademy = tournamentacad
 
 store.standingsChampions = standingschampions
@@ -42,7 +42,8 @@ franchises.forEach(f => {
   })
 });
 
-store.franchises = franchises;
+store.franchises = franchises;*/
+
 
 /*axios.get('https://qclservices.azurewebsites.net/tournament/standings/7205060').then(response => {
   store.standingsChampions = response.data

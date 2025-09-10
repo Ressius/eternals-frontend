@@ -1,41 +1,122 @@
 <script setup>
+import config from '@/config.json'
 </script>
+
 
 <template>
   <div class="blocks-container">
-    <div class="block large"></div> <!-- Large box -->
-    <div class="block small"></div> <!-- Small box -->
-    <div class="block small"></div> <!-- Small box -->
-    <div class="block large"></div> <!-- Large box -->
-    <div class="block large"></div> <!-- Large box -->
-    <div class="block small"></div> <!-- Small box -->
+    <a class="block large" :href="config.links.rules" target="_blank">
+      <img src="../assets/btns/Reglements.jpg" />
+      <h3 style="font-size: 41px;">RÈGLEMENTS</h3>
+    </a> <!-- Large box -->
+    <a class="block small" :href="config.links.register" target="_blank">
+      <img src="../assets/btns/Inscriptions_PETIT.jpg" />
+      <h3>INSCRIPTIONS</h3>
+    </a> <!-- Small box -->
+    <a class="block large mobile" :href="config.links.teams" target="_blank">
+      <img src="../assets/btns/equipes.jpg" />
+      <h3 style="font-size: 35px;">LISTES DES ÉQUIPES</h3>
+    </a> <!-- Large box -->
+    <a class="block small" :href="config.links.schedule" target="_blank">
+      <img src="../assets/btns/Horaire.jpg" />
+      <h3>HORAIRE</h3>
+    </a> <!-- Small box -->
+    <a class="block large desktop" :href="config.links.teams" target="_blank">
+      <img src="../assets/btns/equipes.jpg" />
+      <h3 style="font-size: 35px;">LISTES DES ÉQUIPES</h3>
+    </a> <!-- Large box -->
+    <a class="block large" :href="config.links.ranking" target="_blank">
+      <img src="../assets/btns/Classemenmt.jpg" />
+      <h3>CLASSEMENT</h3>
+    </a> <!-- Large box -->
+    <a class="block small" href="config.links.playoffs" target="_blank">
+      <img src="../assets/btns/Playoffs.jpg" />
+      <h3>PLAYOFFS</h3>
+    </a> <!-- Small box -->
   </div>
 </template>
 
 <style scoped>
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
 .blocks-container {
-  width: 50vw;
-  min-width: 1000px;
+  font-family: 'NewOrderBold';
+  width: 1300px;
   margin: auto;
   text-align: center;
-  height: 600px;
+  height: 800px;
   display: flex;
-  flex-flow: column wrap; /* Allow wrapping of boxes */
-  gap: 50px; /* Spacing between boxes */
-  justify-content: center; /* Center the boxes horizontally */
+  flex-flow: column wrap;
+  gap: 50px;
+  justify-content: center;
 }
 
 .block {
-  background-color: #f69201; /* Example color */
   border-radius: 8px;
   position: relative;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover{
+      color: #f69201;
+      transform: scale(1.05);
+      img{
+        transition: 0.5s;
+        filter: brightness(0.5); /* Darken the image on hover */
+      }
+    }
+
+  h3{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
+  }
+
+  img{
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover; /* Ensure the image covers the block */
+  }
 }
 
 .block.large {
-  height: 300px;
+  height: 400px;
+  width: 400px;
 }
 
 .block.small {
   height: 200px;
+  width: 400px;
 }
+
+@media (max-width: 1500px) {
+  .blocks-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .block {
+    width: 90vw !important;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  }
 </style>

@@ -1,21 +1,26 @@
+<script setup>
+  import config from '@/config.json'
+  import { store } from '../store.js'
+</script>
+
 <template>
     <header>
     <nav>
       <div class="branding">
-        <a class="logo" href="/" alt="Accueil QCL">
-          <img src="../assets/img/eternal-nobg.png" alt="Logo QCL" class="logo" />
+        <a class="logo" href="/" alt="Accueil">
+          <img src="../assets/img/eternal-nobg.png" alt="Logo" class="logo" />
         </a>
       </div>
       <ul v-show="!mobile" class="navigation">
-        <li class="socials"><a href="https://www.twitch.tv/eternalesportleague"><font-awesome-icon :icon="['fab', 'twitch']" /></a></li>
-        <li class="socials"><a href="https://discord.gg/hRSvPaRFDd"><font-awesome-icon :icon="['fab', 'discord']" /></a></li>
-        <li class="socials"><a href="https://www.youtube.com/channel/UCTWthJHVP2wc3zD7k2WXerA"><font-awesome-icon :icon="['fab', 'youtube']" /></a></li>
-        <li class="socials"><a href="https://x.com/eternales22"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a></li>
-        <li class="socials"><a href="https://www.facebook.com/eternalesport2/"><font-awesome-icon :icon="['fab', 'facebook']" /></a></li>
+        <li class="socials"><a :href="config.discord" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a></li>
+        <li class="socials"><a :href="config.twitch" target="_blank"><font-awesome-icon :icon="['fab', 'twitch']" /></a></li>
+        <li class="socials"><a :href="config.youtubeChannel" target="_blank"><font-awesome-icon :icon="['fab', 'youtube']" /></a></li>
+        <li class="socials"><a :href="config.twitter" target="_blank"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a></li>
+        <li class="socials"><a :href="config.facebook" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']"/></a></li>
         <li><img src="../assets/img/dash.png" /></li>
         <li class="categories"><RouterLink to="/mission" class="link">Mission</RouterLink></li>
         <li class="categories"><RouterLink to="/equipe" class="link">L'équipe</RouterLink></li>
-        <li class="categories"><RouterLink to="/hof" class="link">Hall of Fame</RouterLink></li>
+        <li class="categories"><RouterLink to="/halloffame" class="link">Hall of Fame</RouterLink></li>
       </ul>
       <!--
       <a v-if="store.token === ''" class="login" href="https://discord.com/oauth2/authorize?client_id=1239760825443684444&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A5173%2Fauth%2Fdiscord&scope=identify+connections+guilds+email+openid" >Connexion<font-awesome-icon :icon="['fab', 'discord']" /></a>
@@ -27,25 +32,21 @@
       </div>
       <transition name="mobile-nav">
         <ul v-show="mobileNav" class="dropdown-nav">
-        <li><RouterLink to="/mission" class="link">Mission</RouterLink></li>
-        <li><RouterLink to="/equipe" class="link">L'équipe</RouterLink></li>
-        <li><RouterLink to="/hof" class="link">Hall of Fame</RouterLink></li>
+        <li><RouterLink @click="toggleMobileNav" to="/mission" class="link">Mission</RouterLink></li>
+        <li><RouterLink @click="toggleMobileNav" to="/equipe" class="link">L'équipe</RouterLink></li>
+        <li><RouterLink @click="toggleMobileNav" to="/halloffame" class="link">Hall of Fame</RouterLink></li>
         <div class="socials-container">
-          <a href="https://www.twitch.tv/eternalesportleague"><font-awesome-icon :icon="['fab', 'twitch']" /></a>
-          <a href="https://discord.gg/hRSvPaRFDd"><font-awesome-icon :icon="['fab', 'discord']" /></a>
-          <a href="https://www.youtube.com/channel/UCTWthJHVP2wc3zD7k2WXerA"><font-awesome-icon :icon="['fab', 'youtube']" /></a>
-          <a href="https://x.com/eternales22"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a>
-          <a href="https://www.facebook.com/eternalesport2/"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
+          <a :href="config.discord" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a>
+          <a :href="config.twitch" target="_blank"><font-awesome-icon :icon="['fab', 'twitch']" /></a>
+          <a :href="config.youtubeChannel" target="_blank"><font-awesome-icon :icon="['fab', 'youtube']"/></a>
+          <a :href="config.twitter" target="_blank"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a>
+          <a :href="config.facebook" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
         </div>
         </ul>
       </transition>
     </nav>
   </header>
 </template>
-
-<script setup>
-  import { store } from '../store.js'
-</script>
 
 <script>
 
@@ -153,6 +154,10 @@
     text-align: left;
     flex-direction: row;
     padding: 20px 0;
+    padding-right: 80px;
+    @media (max-width: 1000px) {
+      padding-right: 20px;
+    }
     font-size: 18px;
     transition: 0.5s ease all;
     color:white;
@@ -178,7 +183,7 @@
     }
 
     .socials{
-      padding-right: 2rem;
+      padding-left: 2rem;
       a {
         display: flex;
         align-items: center;
@@ -242,7 +247,7 @@
 
       .socials-container {
         position: absolute;
-        bottom: 0;
+        top: 250px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between; /* Add spacing between logos */
@@ -295,7 +300,7 @@
 
 
   nav li {
-    padding-right: 4rem;
+    padding-left: 3rem;
   }
 
 </style>

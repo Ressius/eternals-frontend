@@ -1,12 +1,16 @@
+<script setup>
+import config from '@/config.json'
+</script>
+
 <template>
     <footer>
       <div class="footer">
       <div class="row">
-        <a href="https://www.twitch.tv/eternalesportleague"><font-awesome-icon :icon="['fab', 'twitch']" /></a>
-        <a href="https://discord.gg/hRSvPaRFDd"><font-awesome-icon :icon="['fab', 'discord']" /></a>
-        <a href="https://www.youtube.com/@QCLigue"><font-awesome-icon :icon="['fab', 'youtube']" /></a>
-        <a href="https://x.com/eternales22"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a>
-        <a href="https://www.facebook.com/eternalesport2/"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
+        <a :href="config.discord" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a>
+        <a :href="config.twitch" target="_blank"><font-awesome-icon :icon="['fab', 'twitch']" /></a>
+        <a :href="config.youtubeChannel" target="_blank"><font-awesome-icon :icon="['fab', 'youtube']" /></a>
+        <a :href="config.twitter" target="_blank"><font-awesome-icon :icon="['fab', 'x-twitter']" /></a>
+        <a :href="config.facebook" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
       </div>
 
       <div class="row footerrow">
@@ -14,11 +18,11 @@
             <li><a href="/">Accueil</a></li>
             <li><a href="/mission">Mission</a></li>
             <li><a href="/equipe">L'équipe</a></li>
-            <li><a href="/hof">Hall of Fame</a></li>
+            <li><a href="/halloffame">Hall of Fame</a></li>
           </ul>
       </div>
       <div class="row copyright">
-        Eternals Copyright © 2025 Eternals Esports - Tout droits réservés || Conçu par Anthony Dumulong
+        Eternal E-Sport Copyright © 2025 Eternal E-Sport - Tout droits réservés || Conçu par Anthony Dumulong
       </div>
     </div>
   </footer>

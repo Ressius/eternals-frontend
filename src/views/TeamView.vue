@@ -8,9 +8,7 @@ import SmallHeroHeader from '../components/SmallHeroHeader.vue'
     <div class="content">
       <div class="team">
         <div class="block">
-          <img src="../assets/crew/canard.gif" />
-          <h3>Canard</h3>
-          <p>Test Desc</p>
+          <img src="../assets/hof/Organigramme_Eternal.png" />
         </div>
       </div>
     </div>
@@ -29,14 +27,14 @@ import SmallHeroHeader from '../components/SmallHeroHeader.vue'
 }
 
 .block{
-  width: 400px;
+  width: 800px;
   padding-bottom: 60px;
+  max-width: 80vw;
 }
 
 .block img{
   width: 100%;
   height: auto;
-  aspect-ratio: 1;
   display: block;
   border-radius: 20px;
 }
