@@ -25,6 +25,8 @@ onMounted(async () => {
   )
   const channelData = await channelRes.json()
 
+  console.log(channelData)
+
   // Fetch the most recent videos from the uploads
   if (channelData) {
     videos.value = channelData.items || []
@@ -44,7 +46,7 @@ onMounted(async () => {
         target="_blank"
         rel="noopener"
       >
-        <img :src="video.snippet.thumbnails.medium.url" :alt="cleanTitle(video.snippet.title)" />
+        <img :src="video.snippet.thumbnails.high.url" :alt="cleanTitle(video.snippet.title)" />
         <div class="title">{{ cleanTitle(video.snippet.title) }}</div>
       </a>
     </div>
